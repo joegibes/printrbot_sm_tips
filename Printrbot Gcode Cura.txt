@@ -1,0 +1,34 @@
+Printrbot Gcode Cura
+
+##START
+G21       ;metric values
+G90       ;absolute positioning
+M82       ;set extruder to absolute mode
+M106      ;start with the fan on
+
+G28 X0 Y0 ;home X/Y
+G28 Z0    ;home Z
+G92 E0    ;zero the extruded length
+
+BED_MESH_PROFILE LOAD=DEFAULT ;load default bed mesh from klipper
+
+;start cleaning sequence
+G1 Z3 F2000
+G1 X100 Y0 Z5 F4000
+G1 X100 Y0 Z0.25 F1000
+G1 X20 Y0 Z0.25 E10.0 F2000
+G1 X20 Y0 Z2 E9.5 F6000
+G92 E0
+M107      ;start with the fan off
+;end cleaning sequence
+
+##END
+M104 S0     ;extruder heater off
+M140 S0     ;heated bed heater off (if you have it)
+M106 S0     ;fan off
+G91         ;relative positioning
+G1 E-1 F300 ;retract the filament a bit
+G1 Z+3 E-5 F9000 ;move Z up a bit and retract even more
+G28 X0 Y0   ;home X/Y, so the head is out of the way
+M84         ;steppers off
+G90         ;absolute positioning
