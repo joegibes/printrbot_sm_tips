@@ -23,6 +23,7 @@ Klipper is working great for me on my Printrbot Simple Metal! Using a Raspberry 
     * [Printrbot Simple Metal A360 3D Model](https://a360.co/2UhjiS1) - you can export this in your format of choice, great for designing accessories/brackets/etc
 * https://github.com/Printrbot - Printrbot official Github. Firmware info+.hex files, configs, printrboard eaglecad, various utilities
 * The [Klipper Installation Page](https://www.klipper3d.org/Installation.html) ([or the Install page on github](https://github.com/KevinOConnor/klipper/blob/master/docs/Installation.md)) is excellent. If you've setup a raspberry pi before and/or flashed firmware onto a 3d printer, it's straightforward. 
+* https://www.dropbox.com/sh/qdv5s12pe2suty0/AADJ068B-gjvNOAVt6ncqOmra?dl=0 - Printrbot Documentation Backup
     * [Generic Printrboard Klipper Config](https://github.com/KevinOConnor/klipper/blob/master/config/generic-printrboard.cfg) - I started with this but had to modify lots of stuff to get going. Mainly the pins to start.
 * https://reprap.org/wiki/Printrboard - nice reference for the board schematic and pin listings. You can probably save your Configuration.h file from Marlin and use that to reference the pin assignments. This page doesn't list the Rev F6 though.
 * [Nero 3dp - Klipper Initial Setup : Making sure things are all good before printing](https://www.youtube.com/watch?v=T-knWbh1Gg8) - this channel is excellent for Klipper stuff. I used his Input Shaper tuning guide with an accelerometer.
