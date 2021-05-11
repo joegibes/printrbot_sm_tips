@@ -16,6 +16,8 @@ Klipper is working great for me on my Printrbot Simple Metal! Using a Raspberry 
 1. Broken Fan Mosfet solution
     * Fan mosfet is small SMD, so I made a fan control circuit with a transistor/mosfet and use a different unused pin to control fan now.
     * Klipper is great for fan control since you can define custom fans, use any pin, even GPIO pins on the Raspberry Pi or other controller. (requires [setting up Pi as an additional MCU](https://www.klipper3d.org/RPi_microcontroller.html))
+2. Z-axis 8mm Metric Screw upgrade
+    * see: https://github.com/MS3FGX/PBSM_ZNUT
 
 
 # Helpful Links:
