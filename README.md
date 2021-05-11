@@ -18,6 +18,8 @@ Klipper is working great for me on my Printrbot Simple Metal! Using a Raspberry 
     * Klipper is great for fan control since you can define custom fans, use any pin, even GPIO pins on the Raspberry Pi or other controller. (requires [setting up Pi as an additional MCU](https://www.klipper3d.org/RPi_microcontroller.html))
 2. Z-axis 8mm Metric Screw upgrade
     * see: https://github.com/MS3FGX/PBSM_ZNUT
+    * T8 (8mm dia.), 200mm length, 4start (recommended by Brook Drumm)
+    * with screw+nut such as: https://www.amazon.com/ReliaBot-200mm-Thread-Starts-Printer/dp/B07B63CVSJ
 
 
 # Helpful Links:
